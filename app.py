@@ -56,4 +56,8 @@ def update_graph(selected_month):
     return fig
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(
+        host='0.0.0.0',  # Must be 0.0.0.0 (not 127.0.0.1/localhost)
+        port=int(os.environ.get('PORT', 8050)),  # Use Render's PORT env var
+        debug=True
+    )
