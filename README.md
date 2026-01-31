@@ -24,6 +24,9 @@ A responsive analytics dashboard built with Dash to visualize and monitor key pe
 - Python 3.10+
 - pip
 
+***Live On - https://performance-dashboard-miab.onrender.com/***
+
+
 ### Installation
 ```bash
 # Clone the repo
@@ -40,3 +43,5 @@ pip install -r requirements.txt
 
 #Run on server
 app.py
+
+
